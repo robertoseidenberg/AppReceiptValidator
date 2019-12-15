@@ -29,11 +29,11 @@ class ViewController: UIViewController, UITextViewDelegate {
 
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        if self.autoPaste() {
-            return
-        } else {
-            self.inputTextView.becomeFirstResponder()
-        }
+        // if self.autoPaste() {
+        //     return
+        // } else {
+        //     self.inputTextView.becomeFirstResponder()
+        // }
     }
 
     // MARK: - UITextViewDelegate
